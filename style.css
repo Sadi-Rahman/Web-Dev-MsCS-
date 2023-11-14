@@ -1,0 +1,71 @@
+:root {
+  --bg: #fff;
+  --text: #333;
+  --border: #ccc;
+  --shadow: #edeeee;
+}
+
+.dark {
+  --bg: #222;
+  --text: #e6e6e6;
+  --border: #555;
+  --shadow: #111;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.control {
+  padding: 20px;
+  width: 300px;
+  margin: 20px;
+  border: 1px solid var(--border);
+  border-radius: 25px;
+}
+
+h3 {
+  color: var(--text);
+}
+
+button {
+  padding: 10px 20px;
+  margin: 2px 1px;
+  border: none;
+  background: #b1cce8;
+  color: var(--text);
+  border-radius: 5px;
+}
+
+input[type="number"] {
+  padding: 9px;
+  width: 30px;
+  border-radius: 5px;
+}
+
+.dark-mode {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.dark-mode .change {
+  background: var(--text);
+  color: var(--bg);
+  border-color: var(--text);
+}
+
+.change {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 16px;
+}
