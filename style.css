@@ -21,7 +21,7 @@ body {
 }
 
 html {
-  background-image: url("/image/back.png");
+  background-image: url("../image/back.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
