@@ -7,36 +7,177 @@
     <title>SmartHome</title>
   </head>
   <body>
-    <div class="header">
-      <div class="mode">
-        Dark mode:
-        <span class="change">OFF</span>
-      </div>
-    </div>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#section-1" class="nav-link">Living Room</a></li>
+          <li><a href="#section-2" class="nav-link">Room</a></li>
+          <li><a href="#section-3" class="nav-link">Dinning</a></li>
+          <li>
+            <div class="header">
+              <div class="mode">
+                <span class="change"></span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    <div class="controls">
-      <div class="control light">
-        <h3>Living Room Light</h3>
-        <button class="on">On</button>
-        <button class="off">Off</button>
-      </div>
+    <section id="section-1">
+      <h1 class="section">Living Room</h1>
+      <div class="controls">
+        <div class="control">
+          <div class="image">
+            <img src="/image/bulb.png" alt="Image" />
+          </div>
+          <div class="tile">
+            <h3>Living Room Light</h3>
+            <p class="status">OFF</p>
+          </div>
+        </div>
 
-      <div class="control fan">
-        <h3>Living Room Fan</h3>
-        <button class="speed1">20%</button>
-        <button class="speed2">50%</button>
-        <button class="speed3">70%</button>
-        <button class="speed4">100%</button>
-        <button class="off">Off</button>
-      </div>
+        <div class="control">
+          <div class="image">
+            <img src="/image/fan.png" alt="Image" />
+          </div>
+          <div class="tile">
+            <h3>Living Room Fan</h3>
+            <p class="status">OFF</p>
+          </div>
+        </div>
 
-      <div class="control ac">
-        <h3>Living Room AC</h3>
-        <button class="on">On</button>
-        <button class="off">Off</button>
-        <input type="number" class="temp" value="25" />
+        <div class="control">
+          <div class="image">
+            <img src="/image/tv.png" alt="Image" />
+          </div>
+          <div class="tile">
+            <h3>Living Room TV</h3>
+            <p class="status">OFF</p>
+          </div>
+        </div>
+
+        <div class="control">
+          <div class="image">
+            <img src="/image/sound.png" alt="Image" />
+          </div>
+          <div class="tile">
+            <h3>Living Room Entertainment</h3>
+            <p class="status">OFF</p>
+          </div>
+        </div>
+
+        <div class="control">
+          <div class="image">
+            <img src="/image/router.png" alt="Image" />
+          </div>
+          <div class="tile">
+            <h3>Living Room Router</h3>
+            <p class="status">OFF</p>
+          </div>
+        </div>
+
+        <div class="control">
+          <div class="image">
+            <img src="/image/door.png" alt="Image" />
+          </div>
+          <div class="tile">
+            <h3>Living Room Door</h3>
+            <p class="status">OFF</p>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+
+    <section id="section-3">
+      <h1 class="section">Dinning Room</h1>
+      <div class="controls">
+        <div class="control">
+          <div class="image">
+            <img src="/image/bulb.png" alt="Image" />
+          </div>
+          <div class="tile">
+            <h3>Dinning Light</h3>
+            <p class="status">OFF</p>
+          </div>
+        </div>
+
+        <div class="control">
+          <div class="image">
+            <img src="/image/fan.png" alt="Image" />
+          </div>
+          <div class="tile">
+            <h3>Dinning Fan</h3>
+            <p class="status">OFF</p>
+          </div>
+        </div>
+
+        <div class="control">
+          <div class="image">
+            <img src="/image/tv.png" alt="Image" />
+          </div>
+          <div class="tile">
+            <h3>Dinning TV</h3>
+            <p class="status">OFF</p>
+          </div>
+        </div>
+
+        <div class="control">
+          <div class="image">
+            <img src="/image/sound.png" alt="Image" />
+          </div>
+          <div class="tile">
+            <h3>Dinning Entertainment</h3>
+            <p class="status">OFF</p>
+          </div>
+        </div>
+
+        <div class="control">
+          <div class="image">
+            <img src="/image/router.png" alt="Image" />
+          </div>
+          <div class="tile">
+            <h3>Dinning Router</h3>
+            <p class="status">OFF</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-2">
+      <h1 class="section">Room</h1>
+      <div class="controls">
+        <div class="control">
+          <div class="image">
+            <img src="/image/bulb.png" alt="Image" />
+          </div>
+          <div class="tile">
+            <h3>Room Light</h3>
+            <p class="status">OFF</p>
+          </div>
+        </div>
+
+        <div class="control">
+          <div class="image">
+            <img src="/image/ac.png" alt="AC Image" />
+          </div>
+          <div class="tile">
+            <h3>Room AC</h3>
+            <p class="status">OFF</p>
+          </div>
+        </div>
+        <div class="control">
+          <div class="image">
+            <img src="/image/tv.png" alt="Image" />
+          </div>
+          <div class="tile">
+            <h3>Room TV</h3>
+            <p class="status">OFF</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="script.js"></script>
   </body>
 </html>
